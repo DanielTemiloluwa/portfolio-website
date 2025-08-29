@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar section -->
+    <header>
+      <img src="./Bean Scene.svg" alt="" >
+       <nav>
+          <ul class="nav_links">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Menu</a></li>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">Contact us</a></li>
+           </ul>  
+       </nav>
+       <div class="buttonsection">
+        <a class="cta" href="#"><button class="btn">Sign in</button></a>
+       <a class="cta" href="#"><button class="btn-1">Sign up</button></a>
+       </div>
+    </header>     
+
+    <!-- Coffeee section -->
+     <div class="coffee-container">
+        <div class="coffee-section">
+            <p class="pg">We've got your morning covered with</p>
+            <h1>Coffee</h1>
+            <p>It is best to start your day with a cup of coffee.<br>Discover th best flavours coffee you will ever have,<br> we provide the best for our customers</p>
+            <button class="btn-2">Order Now</button>
+        </div>
+     </div>
+
+    <!-- about us  -->
+    <div class="about-coffee">
+        <div class="about-section">
+            <div class="about-text">
+                <h2>Discover The Best Coffee</h2>
+                <p>Bean coffee is a coffee shop that provides you with the quality coffeee <br>that helps builds your productivity and mood.<br>
+                Having a cup of coffee is good, but having a cup of real coffee is <br>
+            greater. There are doubts that you will enjoy the coffee  more <br>
+            than others you have than the others you have ever tasted</p>
+            <button class="btn-3">Learn more</button>
+            </div>
+
+            <div class="about-image">
+                <img src="./stylized-cup-coffee-out-coffee-beans-flat-lay 1.svg" alt="">
+            </div>
+        </div>
+    </div>
+      <!-- product -->
+       <div class="product-container">
+        <h2>Enjoy a new blend of coffee style</h2>
+         <p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+       </div>
+            <div class="product-design">
+                <div>
+                   <img src="./Group 17.svg" alt="">
+                </div>
+                <div>
+                  <img src="./Group 18.svg" alt="">
+                </div>
+                <div>
+                   <img src="./Group 19.svg" alt="">
+                </div>
+                <div>
+                  <img src="./Group 20.svg" alt="">
+                </div>
+            </div>
+     <!-- Uniqueness  -->
+    <div class="unique">
+        <div class="unique-text">
+            <h2>Why are we different?</h2>
+            <p>
+                we make the coffee in the world 
+            </p>
+        </div>
+        <div class="unique-container">
+            <div class="unique1">
+                <img src="./Group 26.svg">
+            </div>
+            <div  class="unique2">
+                <img src="./Group 27.svg">
+            </div>
+            <div  class="unique3">
+                <img src="./Group 28.svg">
+            </div>
+            <div  class="unique4">
+                <img src="./Group 30.svg">
+            </div>
+        </div>
+        <div class="about-footer">
+             <p>Great ideas starts with great coffee, Let's help you achieve that</p>
+            <h1>Get Started Today</h1>
+            <button class="joinbutton">Join Us</button>
+        </div>
+    </div>
+
+    <!--special -->
+     <div class="special-container">
+        <div class="special-section">
+            <h1>Get a chance to have an <br>
+             Amazing Coffee every morning
+            </h1>
+            <p class="pg1">We are giving you our one time opportunity to <br> experience a better life with coffee.
+            </p>
+            <button class="btn-4">Register</button>
+        </div>
+        <div class="coffee-image">
+            <img src="./cup (1).svg" alt="">
+        </div>
+     </div>
+
+     <style>
+         *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ /* --------- Nav bar ----------- */
+ li, a{ 
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+ }
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #3B1C0A;
+    }
+ .nav_links{
+    list-style: none;
+     display: flex;
+     gap: 2rem;
+ }
+ .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+ }
+ .nav_links li a{
+    transition: all 0.3s ease 0s ;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    color: white;
+}
+ .nav_links li a:hover{
+    color: #3B2F2F;
+ }
+ .btn{
+     background: #3B2F2F;;
+    margin-left:  20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    color: white;
+ }
+ .btn-1{
+     background: #3B2F2F;;
+    margin-left:  20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    color: white;
+ }
+
+
+ /* ------------- Coffee section ---------------- */
+ .coffee-container{
+    border: 2px solid black;
+    min-height: 30rem;
+    background-image: url(./coffee_image.svg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+ }
+
+ .coffee-section{
+    margin-top: 6rem;
+    margin-left: 4rem;
+ }
+
+ .pg{
+    font-size: 17px;
+    font-style: oblique;
+ }
+ .coffee-section p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+ }
+ .coffee-section h1{
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem ;
+ }
+ .btn-2{
+    margin-left:  20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    color:white;
+    margin: 20px 0;
+    background-color: #6F4E37;
+    /* #3C2F2F */
+ }
+
+ /* ----------- about -------------- */
+ .about-coffee{
+    margin-top: 12px;
+ }
+ .about-section{
+    display: flex;
+    gap: 10rem;
+ }
+ .about-text{
+    margin-top: 20px;
+    margin-left: 50px;
+ }
+ .about-text h2{
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3C2F2F;
+ }
+  .about-text p{
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    font-weight: 400;
+  } 
+ .btn-3{
+    margin-left:  20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    color:white;
+    margin: 20px 0;
+    background-color: #6F4E37;
+ }
+ /* ----------product--------- */
+ .product-design{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+ }
+ .product-container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+   .product-container h2{
+      font-size: 2.3rem;
+      margin-bottom: 12px;
+      color:#6F4E37;
+   }
+   .product-container p{
+      font-weight: 100;
+      font-size: 1.1rem;
+   }
+
+
+
+/* ----- uniqueness------- */
+.unique{
+   
+}
+.unique-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.unique-text h2{
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight:bold;
+    color:#6F4E37;
+    margin-bottom: 12px;
+}
+.unique-text p{
+    font-weight: 100;
+}
+.unique-container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 10px;
+}
+.unique1{
+   background-color:rgb(212, 193, 158);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   border-radius: 12px
+}
+.unique1 img{
+   margin-right: 12px;
+   margin-left: 12px;
+   
+}
+.unique2{
+   background-color:rgb(212, 193, 158);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 30px;
+   padding-left: 30px;
+   border-radius: 12px;
+}
+.unique2 img{
+   margin-right: 12px;
+   margin-left: 12px;
+   
+}
+.unique3{
+   background-color:rgb(212, 193, 158);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 30px;
+   padding-left: 30px;
+   border-radius: 12px
+}
+
+.unique3 img{
+   margin-right: 12px;
+   margin-left: 12px; 
+}
+
+.unique4{
+   background-color:rgb(212, 193, 158);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   border-radius: 12px;
+}
+.unique4 img{
+   margin-right: 12px;
+   margin-left: 12px;
+}
+
+.about-footer{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.about-footer p{
+  color:#3B2F2F;  
+  font-size: 18px;
+}
+
+.about-footer h1{
+   font-family: 'Times New Roman', Times, serif;
+   color:#5b4230;
+   margin-bottom: 10px;
+}
+.joinbutton{
+   margin-left:  20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    color:white;
+    margin: 20px 0;
+    background-color: #5b2c0b;
+}
+/* ------------special------------ */
+.special-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border: 2px solid black;
+   min-height: 20rem;
+   background-image: url(./Group\ 36.svg);
+}
+.special-section{
+   margin-bottom: 20px ;
+}
+.special-section h1{ 
+   font-size: 1.9rem;
+   color: white;
+   margin-top: 60px;
+   font-style: inherit;
+   font-family: 'Times New Roman', Times, serif;
+}
+.special-section p{ 
+   font-size: 1rem;
+   color: white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-weight: 300;
+}
+.special-section button{
+   background-color: #c27f4f;
+   padding: 0.6rem 1.2rem;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+   border: none;
+   color:white;
+}
+
+     </style>
+</body>
+</html>
